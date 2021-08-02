@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PostViewController.swift
 //  Navigation
 //
 //  Created by Artem Novichkov on 12.09.2020.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PostViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.view.backgroundColor = .green
     }
-
-
 }
-
